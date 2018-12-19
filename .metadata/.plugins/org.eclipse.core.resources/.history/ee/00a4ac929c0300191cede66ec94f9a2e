@@ -1,0 +1,83 @@
+
+public class ExercicioDois {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * int x = 10;
+		 * 
+		 * while (x < 26) { System.out.println(x); x++;
+		 * 
+		 * }
+		 */
+
+		/*
+		 * public class Resposta2_1 {
+		 * 
+		 * public static void main(String[] args) {
+		 * 
+		 * //o for inicia em 10 e termina em 25 for (int i = 10; i <= 25; i++) {
+		 * System.out.println(i); } } }
+		 * 
+		 * 
+		 * /* public class ExercicioDois {
+		 * 
+		 * public static void main(String[] args) {
+		 * 
+		 * // variável para aculular a soma dos valores (inicia em 0) int soma = 0;
+		 * 
+		 * // for de 1 até 100 for (int i = 1; i <= 100; i += 2) { // para cada iteração
+		 * do for, soma recebe o seu valor anterior somado com o // valor de i soma =
+		 * soma + i; }
+		 * 
+		 * System.out.println(soma); } }
+		 */
+
+		/*
+		 * while (true) {
+		 * 
+		 * int x = 1;
+		 * 
+		 * if (x < 100) {
+		 * 
+		 * x++; int y = x + 1; y++; y++; System.out.println(y); } else { } } } }
+		 */
+
+		/*
+		 * int x = 0; int y = 0; while (x + y < 100) { x++; y++; System.out.println(x);
+		 * System.out.println(y); }
+		 * 
+		 */
+
+		// tabuada de 9 
+		
+		/*int x = 9;
+		int y = 1;
+		int z = 0;
+				
+		while (z<90) {
+			z= x*y;
+			System.out.print(x);
+			System.out.print(" X ");
+			System.out.print(y);
+			System.out.print(" = ");
+			System.out.println(z);
+			y++;
+			
+		}
+		*/
+		int x=9;
+		int z=0;
+		for (int y=0; z<90; y++) {
+			z=x*y;
+			System.out.print(x);
+			System.out.print(" X ");
+			System.out.print(y);
+			System.out.print(" = ");
+			System.out.println(z);
+			
+		}
+		
+	}
+}

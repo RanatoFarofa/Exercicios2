@@ -1,0 +1,39 @@
+
+public class ExercicioDois {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * int x = 10;
+		 * 
+		 * while (x < 26) { System.out.println(x); x++;
+		 * 
+		 * }
+		 */
+
+		while (true) {
+
+			int x = 1;
+			int y = 2;
+			int somar=0;
+			int somar2=1;
+			
+			if (somar < 100) {
+				
+
+				somar = x + y;
+				System.out.println(somar);
+				somar ++;
+				
+				somar =  somar + 1; 
+
+			} else {
+
+			}
+
+		}
+
+	}
+
+}
